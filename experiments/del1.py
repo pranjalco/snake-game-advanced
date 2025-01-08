@@ -40,7 +40,14 @@
 
 # ================================================================================================
 
-from scoreboard import Scoreboard
+# from scoreboard import Scoreboard
+#
+# scoreboard = Scoreboard()
+# scoreboard.fetch_high_score_data()
 
-scoreboard = Scoreboard()
-scoreboard.fetch_high_score_data()
+# ================================================================================================
+import os
+
+print(os.getcwd())
+
+
